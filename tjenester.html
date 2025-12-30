@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tjenester fra Atlas Utvikling AS - Renovering, tilbygg, snekkerarbeid, baderomsrenovering og kjøkkenmontering i Bergen.">
+    <meta name="keywords" content="renovering bergen, tilbygg fana, snekkerarbeid nesttun, baderomsrenovering bergen, kjøkkenmontering paradis">
+    <meta name="author" content="Atlas Utvikling AS">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231C1C1C' width='100' height='100'/><text x='50' y='68' font-family='serif' font-size='50' font-weight='bold' fill='%23C9A227' text-anchor='middle'>A</text></svg>">
+
+    <title>Tjenester | Atlas Utvikling AS</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <span class="logo__main">Atlas</span>
+                    <span class="logo__sub">Utvikling</span>
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Hjem</a></li>
+                        <li><a href="tjenester.html" class="nav__link nav__link--active">Tjenester</a></li>
+                        <li><a href="prosjekter.html" class="nav__link">Prosjekter</a></li>
+                        <li><a href="om-oss.html" class="nav__link">Om oss</a></li>
+                        <li><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <a href="tel:+4790000000" class="header__phone">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        900 00 000
+                    </a>
+                    <a href="kontakt.html" class="btn btn--primary header__cta">Få tilbud</a>
+                </div>
+
+                <button class="menu-toggle" aria-label="Meny">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">Hjem</a></li>
+            <li class="mobile-menu__item"><a href="tjenester.html" class="mobile-menu__link">Tjenester</a></li>
+            <li class="mobile-menu__item"><a href="prosjekter.html" class="mobile-menu__link">Prosjekter</a></li>
+            <li class="mobile-menu__item"><a href="om-oss.html" class="mobile-menu__link">Om oss</a></li>
+            <li class="mobile-menu__item"><a href="kontakt.html" class="mobile-menu__link">Kontakt</a></li>
+        </ul>
+        <a href="tel:+4790000000" class="mobile-menu__phone">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            900 00 000
+        </a>
+        <a href="kontakt.html" class="btn btn--primary">Få tilbud</a>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero__pattern"></div>
+        <div class="container">
+            <div class="page-hero__content">
+                <span class="page-hero__label fade-in">Hva vi tilbyr</span>
+                <h1 class="page-hero__title fade-in">Våre tjenester</h1>
+                <p class="page-hero__subtitle fade-in">Fra små snekkeroppdrag til store utviklingsprosjekter</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Intro -->
+    <section class="services-intro">
+        <div class="container">
+            <p class="services-intro__text fade-in">
+                Vi tilbyr et komplett spekter av snekker- og byggtjenester. Uansett størrelse på prosjektet,
+                leverer vi kvalitetshåndverk med fokus på detaljer og holdbarhet.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section">
+        <div class="container">
+            <!-- Service 1: Renovering & Oppussing -->
+            <div class="service-section">
+                <div class="service-section__inner">
+                    <div class="service-section__image fade-in">
+                        <img src="https://placehold.co/800x600/1C1C1C/C9A227?text=Renovering" alt="Renovering og oppussing">
+                    </div>
+                    <div class="service-section__content fade-in">
+                        <h2>Renovering & Oppussing</h2>
+                        <p class="service-section__tagline">Vi transformerer boliger</p>
+                        <p>
+                            Fra enkle oppussingsprosjekter til omfattende totalrenoveringer – vi har
+                            kompetansen og erfaringen til å forvandle hjemmet ditt. Vi koordinerer
+                            alle fag og holder deg oppdatert gjennom hele prosessen.
+                        </p>
+                        <ul class="service-section__list">
+                            <li>Totalrenovering av boliger</li>
+                            <li>Modernisering av eldre bygg</li>
+                            <li>Planlegging og prosjektledelse</li>
+                            <li>Koordinering av fagfolk</li>
+                            <li>Interiørarbeider og finish</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2: Tilbygg & Påbygg -->
+            <div class="service-section">
+                <div class="service-section__inner">
+                    <div class="service-section__image fade-in">
+                        <img src="https://placehold.co/800x600/2D2D2D/C9A227?text=Tilbygg" alt="Tilbygg og påbygg">
+                    </div>
+                    <div class="service-section__content fade-in">
+                        <h2>Tilbygg & Påbygg</h2>
+                        <p class="service-section__tagline">Mer plass, mer verdi</p>
+                        <p>
+                            Trenger du mer plass? Vi hjelper deg med å utvide boligen din på en måte
+                            som harmonerer med eksisterende arkitektur og øker eiendommens verdi.
+                            Fra første skisse til ferdig bygg.
+                        </p>
+                        <ul class="service-section__list">
+                            <li>Utvidelse av boligareal</li>
+                            <li>Loftutbygging</li>
+                            <li>Garasjer og uthus</li>
+                            <li>Søknadsprosess og tegninger</li>
+                            <li>Komplett prosjektgjennomføring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3: Innvendig Snekkerarbeid -->
+            <div class="service-section">
+                <div class="service-section__inner">
+                    <div class="service-section__image fade-in">
+                        <img src="https://placehold.co/800x600/1C1C1C/C9A227?text=Innvendig" alt="Innvendig snekkerarbeid">
+                    </div>
+                    <div class="service-section__content fade-in">
+                        <h2>Innvendig Snekkerarbeid</h2>
+                        <p class="service-section__tagline">Detaljer som gjør forskjellen</p>
+                        <p>
+                            God finish og presise detaljer er det som skiller et alminnelig rom fra
+                            et eksepsjonelt. Vi utfører alt fra gulvlegging til skreddersydde løsninger
+                            for ditt hjem.
+                        </p>
+                        <ul class="service-section__list">
+                            <li>Gulvlegging og -behandling</li>
+                            <li>Vegg- og takarbeider</li>
+                            <li>Listverk og finish</li>
+                            <li>Dører og vinduer innvendig</li>
+                            <li>Skreddersydde løsninger</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4: Utvendig Snekkerarbeid -->
+            <div class="service-section">
+                <div class="service-section__inner">
+                    <div class="service-section__image fade-in">
+                        <img src="https://placehold.co/800x600/2D2D2D/C9A227?text=Utvendig" alt="Utvendig snekkerarbeid">
+                    </div>
+                    <div class="service-section__content fade-in">
+                        <h2>Utvendig Snekkerarbeid</h2>
+                        <p class="service-section__tagline">Førsteinntrykket som varer</p>
+                        <p>
+                            Husets eksteriør er det første folk ser. Vi sørger for at fasade, terrasse
+                            og utvendige detaljer både ser bra ut og tåler det vestlandske klimaet.
+                        </p>
+                        <ul class="service-section__list">
+                            <li>Kledning og fasade</li>
+                            <li>Vinduer og dører</li>
+                            <li>Terrasser og balkonger</li>
+                            <li>Rekkverk og trapper</li>
+                            <li>Vedlikehold og oppgradering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5: Baderomsrenovering -->
+            <div class="service-section">
+                <div class="service-section__inner">
+                    <div class="service-section__image fade-in">
+                        <img src="https://placehold.co/800x600/1C1C1C/C9A227?text=Baderom" alt="Baderomsrenovering">
+                    </div>
+                    <div class="service-section__content fade-in">
+                        <h2>Baderomsrenovering</h2>
+                        <p class="service-section__tagline">Bad med kvalitet i hver detalj</p>
+                        <p>
+                            Et nytt bad er en investering i komfort og boligverdi. Vi samarbeider
+                            med dyktige rørleggere og elektrikere for å levere komplette
+                            våtromsrenoveringer av høy kvalitet.
+                        </p>
+                        <ul class="service-section__list">
+                            <li>Komplett våtromsrenovering</li>
+                            <li>Samarbeid med rørlegger og elektriker</li>
+                            <li>Moderne løsninger</li>
+                            <li>Membran og flisarbeid</li>
+                            <li>Skreddersydd innredning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6: Kjøkkenmontering -->
+            <div class="service-section">
+                <div class="service-section__inner">
+                    <div class="service-section__image fade-in">
+                        <img src="https://placehold.co/800x600/2D2D2D/C9A227?text=Kjokken" alt="Kjøkkenmontering">
+                    </div>
+                    <div class="service-section__content fade-in">
+                        <h2>Kjøkkenmontering</h2>
+                        <p class="service-section__tagline">Hjertet i hjemmet</p>
+                        <p>
+                            Kjøkkenet er hjemmets samlingspunkt. Vi monterer kjøkken fra alle
+                            ledende merker og sørger for at alt sitter perfekt – fra skap til
+                            benkeplate til siste detalj.
+                        </p>
+                        <ul class="service-section__list">
+                            <li>Montering av alle kjøkkenmerker</li>
+                            <li>Tilpasninger og skreddersøm</li>
+                            <li>Koordinering med andre fag</li>
+                            <li>Elektriske tilkoblinger</li>
+                            <li>Ferdigstillelse og finish</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="cta-banner__pattern"></div>
+        <div class="container">
+            <div class="cta-banner__content">
+                <h2 class="cta-banner__title fade-in">Klar for å starte prosjektet?</h2>
+                <p class="cta-banner__text fade-in">
+                    Kontakt oss for en uforpliktende befaring og pristilbud.
+                </p>
+                <div class="cta-banner__buttons fade-in">
+                    <a href="kontakt.html" class="btn btn--primary">Få tilbud</a>
+                    <a href="tel:+4790000000" class="btn btn--outline-light">Ring 900 00 000</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <div class="footer__logo-main">Atlas</div>
+                        <div class="footer__logo-sub">Utvikling</div>
+                    </div>
+                    <p class="footer__tagline">Solid håndverk i Bergen</p>
+                    <p class="footer__description">
+                        Snekker og byggutvikling for kvalitetsbevisste boligeiere i Bergensområdet.
+                    </p>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Sider</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Hjem</a></li>
+                        <li><a href="tjenester.html">Tjenester</a></li>
+                        <li><a href="prosjekter.html">Prosjekter</a></li>
+                        <li><a href="om-oss.html">Om oss</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Kontakt</h4>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <a href="tel:+4790000000">900 00 000</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <a href="mailto:post@atlasutvikling.no">post@atlasutvikling.no</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Skiparviklia 10, 5221 Nesttun</span>
+                    </div>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Områder</h4>
+                    <p class="footer__areas">Fana, Nesttun, Paradis, Hop, Rådal, Sandsli, Bergen sentrum, Os/Bjørnafjorden</p>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__org">Org.nr: 936716563</p>
+                <p class="footer__copyright">&copy; 2025 Atlas Utvikling AS. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Om Atlas Utvikling AS - Snekker og byggutvikling i Bergen. Vi bærer ansvaret for ditt prosjekt fra idé til ferdig resultat.">
+    <meta name="keywords" content="om atlas utvikling, snekker nesttun, byggfirma bergen, kvalitetshåndverk fana">
+    <meta name="author" content="Atlas Utvikling AS">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231C1C1C' width='100' height='100'/><text x='50' y='68' font-family='serif' font-size='50' font-weight='bold' fill='%23C9A227' text-anchor='middle'>A</text></svg>">
+
+    <title>Om oss | Atlas Utvikling AS</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <span class="logo__main">Atlas</span>
+                    <span class="logo__sub">Utvikling</span>
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Hjem</a></li>
+                        <li><a href="tjenester.html" class="nav__link">Tjenester</a></li>
+                        <li><a href="prosjekter.html" class="nav__link">Prosjekter</a></li>
+                        <li><a href="om-oss.html" class="nav__link nav__link--active">Om oss</a></li>
+                        <li><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <a href="tel:+4790000000" class="header__phone">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        900 00 000
+                    </a>
+                    <a href="kontakt.html" class="btn btn--primary header__cta">Få tilbud</a>
+                </div>
+
+                <button class="menu-toggle" aria-label="Meny">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">Hjem</a></li>
+            <li class="mobile-menu__item"><a href="tjenester.html" class="mobile-menu__link">Tjenester</a></li>
+            <li class="mobile-menu__item"><a href="prosjekter.html" class="mobile-menu__link">Prosjekter</a></li>
+            <li class="mobile-menu__item"><a href="om-oss.html" class="mobile-menu__link">Om oss</a></li>
+            <li class="mobile-menu__item"><a href="kontakt.html" class="mobile-menu__link">Kontakt</a></li>
+        </ul>
+        <a href="tel:+4790000000" class="mobile-menu__phone">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            900 00 000
+        </a>
+        <a href="kontakt.html" class="btn btn--primary">Få tilbud</a>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero__pattern"></div>
+        <div class="container">
+            <div class="page-hero__content">
+                <span class="page-hero__label fade-in">Hvem vi er</span>
+                <h1 class="page-hero__title fade-in">Om Atlas Utvikling</h1>
+                <p class="page-hero__subtitle fade-in">Solid håndverk, varig kvalitet</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Intro -->
+    <section class="about-intro">
+        <div class="container">
+            <div class="about-intro__content fade-in">
+                <p class="about-intro__text">
+                    I gresk mytologi bar titanen Atlas himmelen på sine skuldre. Hos Atlas Utvikling
+                    bærer vi ansvaret for ditt byggeprosjekt med samme dedikasjon. Etablert i 2025
+                    med base i Fana, er vi stolte av å levere solid håndverk til Bergens boligeiere.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section section--cream">
+        <div class="container">
+            <div class="about-philosophy fade-in">
+                <p class="about-philosophy__text">
+                    Vi tror på at godt håndverk handler om mer enn bare å bygge – det handler om
+                    å skape varige verdier. Hver spiker, hver list, hver detalj bidrar til helheten.
+                    Denne filosofien gjennomsyrer alt vi gjør.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label fade-in">Våre verdier</span>
+                <h2 class="section__title fade-in">Bygget på styrke</h2>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card fade-in stagger-1">
+                    <div class="value-card__icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-card__title">Styrke</h3>
+                    <p class="value-card__text">
+                        Vi tar på oss krevende prosjekter. Ingen utfordring er for stor når fundamentet er solid.
+                    </p>
+                </div>
+
+                <div class="value-card fade-in stagger-2">
+                    <div class="value-card__icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22,4 12,14.01 9,11.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-card__title">Kvalitet</h3>
+                    <p class="value-card__text">
+                        Kompromissløst fokus på håndverk. Vi gjør det riktig, selv når ingen ser.
+                    </p>
+                </div>
+
+                <div class="value-card fade-in stagger-3">
+                    <div class="value-card__icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-card__title">Pålitelighet</h3>
+                    <p class="value-card__text">
+                        Vi leverer det vi lover. Avtaler holdes, tidsfrister respekteres.
+                    </p>
+                </div>
+
+                <div class="value-card fade-in stagger-4">
+                    <div class="value-card__icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                            <polyline points="17,6 23,6 23,12"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-card__title">Utvikling</h3>
+                    <p class="value-card__text">
+                        Alltid forbedring, alltid fremover. Vi utvikler oss sammen med prosjektene våre.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Get Section -->
+    <section class="section section--cream">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label fade-in">Hva du får</span>
+                <h2 class="section__title fade-in">Hos Atlas Utvikling</h2>
+                <p class="section__text fade-in">
+                    Vi gjør det enkelt for deg å realisere byggeprosjektet ditt.
+                </p>
+            </div>
+
+            <div class="benefits-list">
+                <div class="benefit-item fade-in stagger-1">
+                    <svg class="benefit-item__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22,4 12,14.01 9,11.01"/>
+                    </svg>
+                    <p class="benefit-item__text">Gratis befaring og tilbud</p>
+                </div>
+
+                <div class="benefit-item fade-in stagger-2">
+                    <svg class="benefit-item__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22,4 12,14.01 9,11.01"/>
+                    </svg>
+                    <p class="benefit-item__text">Fast kontaktperson gjennom hele prosjektet</p>
+                </div>
+
+                <div class="benefit-item fade-in stagger-3">
+                    <svg class="benefit-item__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22,4 12,14.01 9,11.01"/>
+                    </svg>
+                    <p class="benefit-item__text">Skriftlig avtale med tydelige priser</p>
+                </div>
+
+                <div class="benefit-item fade-in stagger-4">
+                    <svg class="benefit-item__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22,4 12,14.01 9,11.01"/>
+                    </svg>
+                    <p class="benefit-item__text">Dokumentasjon ved ferdigstillelse</p>
+                </div>
+
+                <div class="benefit-item fade-in stagger-5">
+                    <svg class="benefit-item__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22,4 12,14.01 9,11.01"/>
+                    </svg>
+                    <p class="benefit-item__text">Garanti på utført arbeid</p>
+                </div>
+
+                <div class="benefit-item fade-in stagger-6">
+                    <svg class="benefit-item__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22,4 12,14.01 9,11.01"/>
+                    </svg>
+                    <p class="benefit-item__text">Oppfølging etter prosjektet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label fade-in">Lokalt i Bergen</span>
+                <h2 class="section__title fade-in">Med base i Fana</h2>
+                <p class="section__text fade-in">
+                    Fra Nesttun betjener vi hele Bergensområdet. Vår lokale forankring betyr
+                    kort vei til deg, kjennskap til lokale forhold og rask respons når du trenger oss.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card fade-in stagger-1">
+                    <div class="feature-card__icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card__title">Lokal kunnskap</h3>
+                    <p class="feature-card__text">
+                        Vi kjenner Bergensområdet og de lokale byggetradisjonene godt.
+                    </p>
+                </div>
+
+                <div class="feature-card fade-in stagger-2">
+                    <div class="feature-card__icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card__title">Rask tilgjengelighet</h3>
+                    <p class="feature-card__text">
+                        Kort avstand betyr at vi kan stille raskt, både til befaring og arbeid.
+                    </p>
+                </div>
+
+                <div class="feature-card fade-in stagger-3">
+                    <div class="feature-card__icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card__title">Personlig oppfølging</h3>
+                    <p class="feature-card__text">
+                        Vi er nære nok til å gi deg den personlige servicen du fortjener.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="cta-banner__pattern"></div>
+        <div class="container">
+            <div class="cta-banner__content">
+                <h2 class="cta-banner__title fade-in">La oss løfte prosjektet ditt</h2>
+                <p class="cta-banner__text fade-in">
+                    Ta kontakt for en uforpliktende samtale om dine planer.
+                </p>
+                <div class="cta-banner__buttons fade-in">
+                    <a href="kontakt.html" class="btn btn--primary">Kontakt oss</a>
+                    <a href="tel:+4790000000" class="btn btn--outline-light">Ring 900 00 000</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <div class="footer__logo-main">Atlas</div>
+                        <div class="footer__logo-sub">Utvikling</div>
+                    </div>
+                    <p class="footer__tagline">Solid håndverk i Bergen</p>
+                    <p class="footer__description">
+                        Snekker og byggutvikling for kvalitetsbevisste boligeiere i Bergensområdet.
+                    </p>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Sider</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Hjem</a></li>
+                        <li><a href="tjenester.html">Tjenester</a></li>
+                        <li><a href="prosjekter.html">Prosjekter</a></li>
+                        <li><a href="om-oss.html">Om oss</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Kontakt</h4>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <a href="tel:+4790000000">900 00 000</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <a href="mailto:post@atlasutvikling.no">post@atlasutvikling.no</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Skiparviklia 10, 5221 Nesttun</span>
+                    </div>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Områder</h4>
+                    <p class="footer__areas">Fana, Nesttun, Paradis, Hop, Rådal, Sandsli, Bergen sentrum, Os/Bjørnafjorden</p>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__org">Org.nr: 936716563</p>
+                <p class="footer__copyright">&copy; 2025 Atlas Utvikling AS. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
