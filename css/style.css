@@ -469,6 +469,13 @@ ul, ol {
     background: linear-gradient(135deg, var(--color-charcoal) 0%, #2a2a2a 100%);
 }
 
+.hero__background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
 .hero__pattern {
     position: absolute;
     top: 0;
@@ -830,6 +837,26 @@ ul, ol {
     text-align: center;
     position: relative;
     overflow: hidden;
+}
+
+.page-hero__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.page-hero__background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.page-hero .container {
+    position: relative;
+    z-index: 2;
 }
 
 .page-hero__pattern {
@@ -1487,6 +1514,21 @@ ul, ol {
     color: var(--color-stone);
     font-size: 0.8125rem;
     margin: 0;
+}
+
+.footer__attribution {
+    color: var(--color-stone);
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.footer__attribution a {
+    color: var(--color-stone-light);
+    text-decoration: underline;
+}
+
+.footer__attribution a:hover {
+    color: var(--color-gold);
 }
 
 /* ========================================
